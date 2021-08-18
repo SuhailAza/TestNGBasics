@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNGBasics Suite" verbose="1" >
+
+<!--  TestNGBasics Suite
+  <test name="Test Execution 1" >
+    <classes>
+       <class name="TestNGBasics.InvocationCountTest" />
+       <class name="TestNGBasics.AnnotationsWithGroupsTest" />
+    </classes>
+  </test>
+ 
+  <test name="Execution 2">
+    <classes>
+      <class name="TestNGBasics.GoogleTest" />
+    </classes>
+  </test>
+-->  
+
+<!-- TestNG Parameters -->
+<test name="Test Execution 1" >
+	<parameter name="url" value="https://github.com/login" />
+	<parameter name="username" value="suhailaza" />
+	<parameter name="password" value="password@123" />
+
+    <classes>
+       <class name="TestNGBasics.parametersTest" />
+    </classes>
+  </test>
+  
+  
+</suite>

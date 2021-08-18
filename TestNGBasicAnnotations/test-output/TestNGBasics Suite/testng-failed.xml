@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGBasics Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Execution 2(failed)">
+    <classes>
+      <class name="TestNGBasics.GoogleTest">
+        <methods>
+          <include name="gmailLinkTest"/>
+          <include name="setup"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- TestNGBasics.GoogleTest -->
+    </classes>
+  </test> <!-- Execution 2(failed) -->
+</suite> <!-- Failed suite [TestNGBasics Suite] -->
